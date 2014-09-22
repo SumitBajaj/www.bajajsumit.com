@@ -9,7 +9,7 @@
     font-style: normal;}
 
 body, html {
-  background: #fff url("pix/bg.gif") repeat-x top;
+  background: #fff url("images/bg.gif") repeat-x top;
   margin: 0;
   padding: 0;   
   font-family: "Trebuchet MS", "Geneva CE", lucida, sans-serif;
@@ -19,13 +19,6 @@ body, html {
   text-align: center;
   width: 100%;
   height: 100%;}
-  
-#bg_ilustrace {
-  width: 100%;
-  height: 886px;
-  position: absolute;
-  top: 0px;
-  background: url("pix/bg_ilustrace.jpg") no-repeat center;}
 
 img {
 	border: 0;
@@ -41,27 +34,17 @@ a:hover {
 	color: #0096bb;
 	text-decoration: underline;}
   
-#hlavni {
-  width: 960px;
-  min-height: 100%;
-  margin: auto;
-  position: relative; 
-  text-align: left;
-  background: url("pix/bg_ilustrace.jpg") no-repeat top center;
-  z-index: 2;}
-  
-#pozadi_spodni {
+#sumit_bajaj_window {
   width: 960px;
   margin: auto;
   position: relative; 
-  text-align: left;
-  background: url(pix/pata.png) bottom left no-repeat transparent;
+  text-align: left;  
   z-index: 2;}
   
 #logo {
 	width: 287px;
 	height: 46px;
-	background-image: url(pix/logo.png);
+	background-image: url(images/logo.png);
 	background-position: 0px 0px;
 	background-repeat: no-repeat;
   position: absolute;
@@ -118,7 +101,7 @@ a:hover {
 #menu ul li a:hover {
 	color: #000;
   background-color: transparent;
-  background-image: url(pix/menu.gif);
+  background-image: url(images/menu.gif);
 	background-position: bottom;
 	background-repeat: repeat-x;}
 
@@ -181,7 +164,7 @@ h2 .nadpisdatum {
   color: #231f20;
   line-height: 160%;
   font-family: "Trebuchet MS", "Geneva CE", lucida, sans-serif;
-  background: url(pix/index.png) 0px 50px no-repeat transparent;}
+  background: url(images/index.png) 0px 50px no-repeat transparent;}
   
 #uvodni_obsah h1 {
   position: absolute;
@@ -207,7 +190,7 @@ h2 .nadpisdatum {
   left: 345px;
   width: 195px;}
   
-.ukazky_tvorby {
+.my_work {
 	width: 130px;
 	height: 150px;
   line-height: 150px;
@@ -215,7 +198,7 @@ h2 .nadpisdatum {
   top: 279px;
   left: 195px;}
   
-.ukazky_tvorby a {
+.my_work a {
 	color: #333;
 	width: 100%;
 	height: 100%;
@@ -223,9 +206,9 @@ h2 .nadpisdatum {
   z-index: 5;
 	text-decoration: none;
   text-indent: -9999px;
-  background: url(pix/ukazky_tvorby.png) 0px 0px no-repeat transparent;}
+  background: url(images/my_work.png) 0px 0px no-repeat transparent;}
   
-.ukazky_tvorby a:hover {
+.my_work a:hover {
 	background-position: -130px 0px;}
   
 #obsah_sirsi {
@@ -271,7 +254,7 @@ h2 .nadpisdatum {
 
 .seznam li {
 	list-style-type: none;
-  background-image: url(pix/seznam.png);
+  background-image: url(images/seznam.png);
   background-repeat: no-repeat;
   background-position: 0px 6px;
   line-height: 26px;
@@ -283,18 +266,18 @@ h2 .nadpisdatum {
 
 #hexagony {
   width: 400px;
-  height: 800px;
+  height: 560px;
   float: right;
   margin: 107px 0px 0px 0px;
   padding: 1px 0px 0px 0px;     
   position: relative;  
-  background: url(pix/hexagony.png) 0px 0px no-repeat transparent;
+  background: url(images/hexagony.png) 0px 0px no-repeat transparent;
   font-family: 'AlternateGothicNo2AT', Impact, Haettenschweiler, 'Arial Narrow Bold', Gadget, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   color: #fff;}
   
-.hexagon_handpainting, .hexagon_bodypainting, .hexagon_facepainting, .hexagon_uv_bodypainting, .hexagon_wallpainting, .hexagon_airbrush, .hexagon_airbrush_tattoo, .hexagon_temporary_tattoo, .hexagon_glitter_tattoo, .hexagon_special_effect_fx, .hexagon_movie_blood {
+.hexagon_handpainting, .hexagon_bodypainting, .hexagon_facepainting, .hexagon_uv_bodypainting, .hexagon_wallpainting, .hexagon_airbrush, .hexagon_airbrush_tattoo, .hexagon_temporary_tattoo, .hexagon_glitter_tattoo, .hexagon_special_effect_fx, .hexagon_blogs {
 	width: 100px;
 	height: 116px;
   line-height: 116px;
@@ -341,26 +324,26 @@ h2 .nadpisdatum {
   top: 344px;
   left: 50px;}
   
-.hexagon_movie_blood {
+.hexagon_blogs {
   top: 430px;
   left: 0px;}
   
-.hexagon_handpainting span, .hexagon_bodypainting span, .hexagon_facepainting span, .hexagon_uv_bodypainting span, .hexagon_wallpainting span, .hexagon_airbrush span, .hexagon_airbrush_tattoo span, .hexagon_temporary_tattoo span, .hexagon_glitter_tattoo span, .hexagon_special_effect_fx span, .hexagon_movie_blood span {
+.hexagon_handpainting span, .hexagon_bodypainting span, .hexagon_facepainting span, .hexagon_uv_bodypainting span, .hexagon_wallpainting span, .hexagon_airbrush span, .hexagon_airbrush_tattoo span, .hexagon_temporary_tattoo span, .hexagon_glitter_tattoo span, .hexagon_special_effect_fx span, .hexagon_blogs span {
 	display: -moz-inline-box;  /* FF2 or lower */
   display: inline-block;     /* FF3, Opera, Safari */
   line-height: normal;
   vertical-align: middle; }
   
-.hexagon_handpainting span, .hexagon_bodypainting span, .hexagon_facepainting span, .hexagon_uv_bodypainting span, .hexagon_wallpainting span, .hexagon_airbrush span, .hexagon_airbrush_tattoo span, .hexagon_temporary_tattoo span, .hexagon_glitter_tattoo span, .hexagon_special_effect_fx span, .hexagon_movie_blood span { *display: inline;} /* haslayout for IE6/7 */
+.hexagon_handpainting span, .hexagon_bodypainting span, .hexagon_facepainting span, .hexagon_uv_bodypainting span, .hexagon_wallpainting span, .hexagon_airbrush span, .hexagon_airbrush_tattoo span, .hexagon_temporary_tattoo span, .hexagon_glitter_tattoo span, .hexagon_special_effect_fx span, .hexagon_blogs span { *display: inline;} /* haslayout for IE6/7 */
 
-.hexagon_handpainting a, .hexagon_bodypainting a, .hexagon_facepainting a, .hexagon_uv_bodypainting a, .hexagon_wallpainting a, .hexagon_airbrush a, .hexagon_airbrush_tattoo a, .hexagon_temporary_tattoo a, .hexagon_glitter_tattoo a, .hexagon_special_effect_fx a, .hexagon_movie_blood a {
+.hexagon_handpainting a, .hexagon_bodypainting a, .hexagon_facepainting a, .hexagon_uv_bodypainting a, .hexagon_wallpainting a, .hexagon_airbrush a, .hexagon_airbrush_tattoo a, .hexagon_temporary_tattoo a, .hexagon_glitter_tattoo a, .hexagon_special_effect_fx a, .hexagon_blogs a {
 	color: #fff;
 	width: 100%;
 	height: 100%;
 	display: block;
   z-index: 5;
 	text-decoration: none;
-  background: url(pix/hexagony_.png) no-repeat transparent;}
+  }
   
 .hexagon_handpainting a { background-position: -100px 0px;}
   
@@ -382,14 +365,14 @@ h2 .nadpisdatum {
   
 .hexagon_special_effect_fx a { background-position: -800px 0px;}
   
-.hexagon_movie_blood a { background-position: -1000px 0px;}
+.hexagon_blogs a { background-position: -1000px 0px;}
 
-.hexagon_handpainting a:hover, .hexagon_bodypainting a:hover, .hexagon_facepainting a:hover, .hexagon_uv_bodypainting a:hover, .hexagon_wallpainting a:hover, .hexagon_airbrush a:hover, .hexagon_airbrush_tattoo a:hover, .hexagon_temporary_tattoo a:hover, .hexagon_glitter_tattoo a:hover, .hexagon_special_effect_fx a:hover, .hexagon_movie_blood a:hover {
+.hexagon_handpainting a:hover, .hexagon_bodypainting a:hover, .hexagon_facepainting a:hover, .hexagon_uv_bodypainting a:hover, .hexagon_wallpainting a:hover, .hexagon_airbrush a:hover, .hexagon_airbrush_tattoo a:hover, .hexagon_temporary_tattoo a:hover, .hexagon_glitter_tattoo a:hover, .hexagon_special_effect_fx a:hover, .hexagon_blogs a:hover {
 	width: 120px;
 	height: 140px;
   line-height: 140px;
   margin: -10px 0px 0px -10px;
-  background: url(pix/hexagony_hover.png) no-repeat transparent;
+  background: url(images/hexagony_hover.png) no-repeat transparent;
   z-index: 10;}
   
 .hexagon_handpainting a:hover {
@@ -422,10 +405,10 @@ h2 .nadpisdatum {
 .hexagon_special_effect_fx a:hover {
 	background-position: -960px 0px;}
   
-.hexagon_movie_blood a:hover {
+.hexagon_blogs a:hover {
 	background-position: -1200px 0px;}
 
-.hexagon_handpainting a:hover span, .hexagon_bodypainting a:hover span, .hexagon_facepainting a:hover span, .hexagon_uv_bodypainting a:hover span, .hexagon_wallpainting a:hover span, .hexagon_airbrush a:hover span, .hexagon_airbrush_tattoo a:hover span, .hexagon_temporary_tattoo a:hover span, .hexagon_glitter_tattoo a:hover span, .hexagon_special_effect_fx a:hover span, .hexagon_movie_blood a:hover span {
+.hexagon_handpainting a:hover span, .hexagon_bodypainting a:hover span, .hexagon_facepainting a:hover span, .hexagon_uv_bodypainting a:hover span, .hexagon_wallpainting a:hover span, .hexagon_airbrush a:hover span, .hexagon_airbrush_tattoo a:hover span, .hexagon_temporary_tattoo a:hover span, .hexagon_glitter_tattoo a:hover span, .hexagon_special_effect_fx a:hover span, .hexagon_blogs a:hover span {
 	font-size: 22px;
   text-decoration: underline;}
   
@@ -447,7 +430,7 @@ h2 .nadpisdatum {
   width: 100px;
   height: 116px;
   line-height: 116px;
-  background: url(pix/button.png) 0px 0px no-repeat transparent;
+  background: url(images/button.png) 0px 0px no-repeat transparent;
   font-family: 'AlternateGothicNo2AT', Impact, Haettenschweiler, 'Arial Narrow Bold', Gadget, sans-serif;
   border: none;
   outline: none;
@@ -477,7 +460,7 @@ h2 .nadpisdatum {
 
 .formular input, .formular textarea, .formular select {
 	border: none;
-	background: url(pix/formular.png) 0px 0px #e6f8ff;
+	background: url(images/formular.png) 0px 0px #e6f8ff;
 	font-family: "Trebuchet MS", "Geneva CE", lucida, sans-serif;
 	font-size: 13px;
 	padding: 10px 10px 10px 10px;
@@ -493,19 +476,19 @@ textarea { overflow: auto;}
 
 .kontaktemail {
   line-height: 24px;
-  background: url(pix/kontakty.png) 0px 0px no-repeat transparent;
+  background: url(images/kontakty.png) 0px 0px no-repeat transparent;
   padding: 0px 0px 0px 30px;
   margin: 0px 0px 5px 0px;}
   
 .kontakttelefon {
   line-height: 24px;
-  background: url(pix/kontakty.png) 0px -36px no-repeat transparent;
+  background: url(images/kontakty.png) 0px -36px no-repeat transparent;
   padding: 0px 0px 0px 30px;
   margin: 0px 0px 5px 0px;}
   
 .kontaktwww {
   line-height: 24px;
-  background: url(pix/kontakty.png) 0px -72px no-repeat transparent;
+  background: url(images/kontakty.png) 0px -72px no-repeat transparent;
   padding: 0px 0px 0px 30px;
   margin: 0px 0px 5px 0px;}
   
@@ -513,8 +496,7 @@ textarea { overflow: auto;}
 
 #pata {
   width: auto;
-  clear: both;
-  height: 126px;
+  clear: both;  
   margin: 0px 0px 0px 0px;
   padding: 0px 0px 0px 0px;     
   position: relative;}
@@ -527,9 +509,8 @@ textarea { overflow: auto;}
   top: 27px;
   left: 10px;}
   
-.pata_email, .pata_facebook {
-	width: 60px;
-	height: 70px;
+.pata_email, .pata_facebook, .pata_twitter, .pata_blogger {
+	width: 60px;	
   line-height: 70px;
 	position: absolute;}
   
@@ -541,6 +522,14 @@ textarea { overflow: auto;}
   top: 20px;
   left: 630px;}
   
+.pata_twitter {
+  top: 20px;
+  left: 690px;}
+  
+ .pata_blogger {
+  top: 20px;
+  left: 750px;}
+
 .pata_design {
   width: 200px;
   position: absolute;
@@ -559,9 +548,9 @@ textarea { overflow: auto;}
   z-index: 5;
 	text-decoration: none;
   text-indent: -9999px;
-  background: url(pix/exarion.png) 0px 0px no-repeat transparent;}
+  background: url(images/exarion.png) 0px 0px no-repeat transparent;}
   
-.pata_email a, .pata_facebook a {
+.pata_email a, .pata_facebook a , .pata_twitter a, .pata_blogger a{
 	color: #333;
 	width: 100%;
 	height: 100%;
@@ -569,11 +558,17 @@ textarea { overflow: auto;}
   z-index: 5;
 	text-decoration: none;
   text-indent: -9999px;
-  background: url(pix/pata_kontakty.png) 0px 0px no-repeat transparent;}
+  background: url(images/pata_kontakty.png) 0px 0px no-repeat transparent;}
   
 .pata_facebook a {
   background-position: -60px 0px;}
   
+.pata_twitter a {
+  background-position: -120px 0px;}
+
+.pata_blogger a {
+  background-position: -180px 0px;}
+
 .pata_exarion a:hover {
 	background-position: -50px 0px;}
   
@@ -583,6 +578,12 @@ textarea { overflow: auto;}
 .pata_facebook a:hover {
 	background-position: -60px -70px;}
   
+.pata_twitter a:hover {
+  background-position: -120px -70px;}
+
+.pata_blogger a:hover {
+  background-position: -180px -70px;}
+
 .pata_odkaz_prvni {
 	width: 99px;
 	height: 86px;
